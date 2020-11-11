@@ -12,7 +12,7 @@ A continuación se detallan los pasos a realizar:
 
 2. Crear el data lake (_Create a resourse -> Storage account_)
     1. Baics
-        1. Storage account name: _wwwdatalakeXX_ (donde XX se reemplaza por un numero)
+        1. Storage account name: _wwidatalakeXX_ (donde XX se reemplaza por un numero)
         2. Location: _(US) East US 2_
         3. Performance: _Standard_
         4. Account kind: _StorageV2_
@@ -29,7 +29,7 @@ A continuación se detallan los pasos a realizar:
 3. Crear el servicio Data Factory (_Create a resourse -> Data Factory_)
     1. Basics
         1. Region: _(US) East US 2_
-        2. Name: _wwwDF_
+        2. Name: _wwiDF_
         3. Version: _V2_
 		
 		<img src="images/DF_01.png"/><br/>
@@ -61,4 +61,12 @@ A continuación se detallan los pasos a realizar:
     5. Descargar el agente de Integration Runtime, opción 1 **Express setup**
 	
 		<img src="images/DF_08.png"/><br/>
+		
+	6. Instalar el agente de IR
+	
+		<img src="images/IR_01.png"/><br/>
+		
+		<img src="images/IR_02.png"/><br/>
+		
+		<img src="images/IR_03.png"/><br/>
 	
