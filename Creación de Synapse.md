@@ -7,8 +7,9 @@
 		2. Server admin login: _Administrador_
 		3. Password: _labWWI_Azure_
 		4. Location: _(US) East US 2_
+		<img src="images/Synapse_02.png"/><br/>
 	3. Performace level: _Gen2 DW100c_
 	
 	<img src="images/Synapse_01.png"/><br/>
 	
-	<img src="images/Synapse_02.png"/><br/>
+	<img src="images/Synapse_03.png"/><br/>
