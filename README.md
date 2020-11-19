@@ -1,4 +1,4 @@
-# LabMicro
+# Laboratorio Microsoft - Arquitecturas Modernas de Datos
 
 A continuación se detallan los pasos a realizar:
 
@@ -7,7 +7,7 @@ A continuación se detallan los pasos a realizar:
 3. [Creación Data Factory](./Creaci&oacute;n%20de%20Data%20Factory.md)
 4. [Creación de Databricks](./Creaci&oacute;n%20de%20Databricks.md)
 5. [Creación de Synapse](./Creaci&oacute;n%20de%20Synapse.md)
-6. [Ingesta de datos]       
+6. [Ingesta de datos]
 7. [Integración de datos]
 8. [Orquestación]	
 9. [Visualización]
