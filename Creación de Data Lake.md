@@ -1,7 +1,7 @@
 # Creación de Data Lake
 
 1. Creación de Data Lake (_Create a resourse -> Storage account_)
-    1. Baics
+    1. Basics
         1. Storage account name: _wwidatalakeXX_ (donde XX se reemplaza por un numero)
         2. Location: _(US) East US 2_
         3. Performance: _Standard_

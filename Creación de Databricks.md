@@ -16,7 +16,7 @@
 	
 	<img src="images/DB_04.png"/><br/>
 
-3. Ir a la sección Cluster y crear uno nuevo
+3. Ir a la sección **Clusters** y crear uno nuevo
 
 	<img src="images/DB_05.png"/><br/>
 	
@@ -32,3 +32,5 @@
 	10. Seleccionar _Create Cluster_
 
 	<img src="images/DB_06.png"/><br/>
+	
+	<img src="images/DB_07.png"/><br/>
