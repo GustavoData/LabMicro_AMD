@@ -1,4 +1,4 @@
-## Creación de Grupo de Recurso
+# Creación de Grupo de Recurso
 
 1. Crear un nuevo grupo de recursos (_Create a resourse -> Resource Group_)
     1. Resource group: _LabAzure_WWI_

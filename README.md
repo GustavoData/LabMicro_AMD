@@ -2,7 +2,7 @@
 
 A continuación se detallan los pasos a realizar:
 
-1. [Grupo de Recursos] (#Creación de Grupo de Recurso)
+1. [Grupo de Recursos] (./Creación%20de%20Grupo%20de%20Recurso.md)
 2. Data Lake
 3. Data Factory
 
