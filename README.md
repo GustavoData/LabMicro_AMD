@@ -2,13 +2,11 @@
 
 A continuación se detallan los pasos a realizar:
 
-1. Crear un nuevo grupo de recursos (_Create a resourse -> Resource Group_)
-    1. Resource group: _LabAzure_WWI_
-    2. Region: _(US) East US 2_
-        
-    <img src="images/Resource_Group.png"/><br/>
+1. [Grupo de Recursos] (#Creación de Grupo de Recurso)
+2. Data Lake
+3. Data Factory
 
-**A partir de ahora todos los servicios que se den de alta se deben asignar al grupo de recurso creado**
+
 
 2. Crear el data lake (_Create a resourse -> Storage account_)
     1. Baics
@@ -62,7 +60,7 @@ A continuación se detallan los pasos a realizar:
 	
 		<img src="images/DF_08.png"/><br/>
 		
-	6. Instalar el agente de IR
+	6. Instalar y validar el agente de IR
 	
 		<img src="images/IR_01.png"/><br/>
 		
