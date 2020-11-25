@@ -35,3 +35,7 @@
 	<img src="images/DL_08.png"/><br/>
 	
 	<img src="images/DL_09.png"/><br/>
+
+5. Descargar el archivo [inputs.zip](./files/inputs.zip) y subir el contenido, excepto el archivo _city.zip_, al contenedor **_datalake_**
+
+	<img src="images/DL_10.png"/><br/>
