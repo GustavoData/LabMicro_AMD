@@ -15,3 +15,9 @@
 	<img src="images/DL_02.png"/><br/>
 	
 	<img src="images/DL_03.png"/><br/>
+	
+2. Crear un contenedor; por ejemplo _datalake_
+
+	<img src="images/DL_04.png"/><br/>
+	
+	<img src="images/DL_05.png"/><br/>
