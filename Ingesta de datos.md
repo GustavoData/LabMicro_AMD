@@ -6,7 +6,7 @@ En esta sección vamos a _mover_ los datos de diferentes origenes al Data Lake. 
 Vamos a utilizar como servidor On Premise nuestra PC/Notebook donde configuramos el Integration Runtime. A continuación se detallan los pasos a realizar:
 
 1. Descargar y descomprimir el archivo [**inputs.zip**](./files/inputs.zip) en el directorio _"C:\Laboratorio\files"_
-2. Desde la interfaz de desarrollo de Data Factory nos dirigimos a Author y creamos un nuevo Pipeline
+2. Desde la interfaz de desarrollo de Data Factory nos dirigimos a **Author** y creamos un nuevo Pipeline
 	
 	<img src="images/Pipeline_city_01.png"/><br/>
 	        
@@ -112,8 +112,8 @@ Vamos a utilizar como servidor On Premise nuestra PC/Notebook donde configuramos
 ### Azure Storage --> Data Lake
 Ahora vamos a realizar los mismos pasos pero en vez de copiar un archivo del On-Premise vamos a conectarnos a un Storage Account (Azure). 
 
-1. Desde la interfaz de desarrollo de Data Factory nos dirigimos a Author y creamos un nuevo Pipeline
-2. Asignamos un nombre representativo al pipeline; por ejemplo _CopyAzure2Azure_Sales_Invoices_
+1. Desde la interfaz de desarrollo de Data Factory nos dirigimos a **Author** y creamos un nuevo Pipeline
+2. Asignamos un nombre representativo al pipeline; por ejemplo _CopyAzure2Azure_SalesInvoices_
 3. Dentro de las opciones de Actividades buscamos **_Move & transform --> Copy data_** y lo _arrastramos_ al area de desarrollo. Renombramos la actividad con el nombre _CopySalesInvoicesFile_.
 	1. Luego debemos configurar el origen (_Source_). Para esto vamos a realizar los siguientes pasos:
 		1. Source dataset: Creamos uno nuevo y seleccionamos la opción _Azure --> Azure Data Lake Storage Gen2 --> DelimitedText_
