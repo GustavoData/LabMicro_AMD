@@ -109,50 +109,50 @@ Vamos a utilizar como servidor On Premise nuestra PC/Notebook donde configuramos
 		
 		<img src="images/Pipeline_city_24.png"/><br/>
 		
-### Azure Storage --> Data Lake
+### Azure Storage --> Data Lake 
 Ahora vamos a realizar los mismos pasos pero en vez de copiar un archivo del On-Premise vamos a conectarnos a un Storage Account (Azure). 
 
 1. Desde la interfaz de desarrollo de Data Factory nos dirigimos a **Author** y creamos un nuevo Pipeline
 2. Asignamos un nombre representativo al pipeline; por ejemplo _CopyAzure2Azure_SalesInvoices_
 3. Dentro de las opciones de Actividades buscamos **_Move & transform --> Copy data_** y lo _arrastramos_ al area de desarrollo. Renombramos la actividad con el nombre _CopySalesInvoicesFile_.
 	1. Luego debemos configurar el origen (_Source_). Para esto vamos a realizar los siguientes pasos:
-		1. Source dataset: Creamos uno nuevo y seleccionamos la opción _Azure --> Azure Data Lake Storage Gen2 --> DelimitedText_
+		1. Source dataset: Creamos uno nuevo y seleccionamos la opción _Azure --> Azure Data Lake Storage Gen2 --> Avro_
 	
-		<img src="images/Pipeline_city_04.png"/><br/>
+		<img src="images/Pipeline_SI_01.png"/><br/>
 		
-		<img src="images/Pipeline_city_05.png"/><br/>
+		<img src="images/Pipeline_SI_02.png"/><br/>
 		
-		<img src="images/Pipeline_city_06.png"/><br/>
 		
 		2. Ahora debemos asignar un nombre y definir el Linked Service
-			1. Name: _City_
+			1. Name: _AvroSalesInvoices_
 			2. Linked service: Creamos uno nuevo (_New_)
 	
-			<img src="images/Pipeline_city_07.png"/><br/>
+			<img src="images/Pipeline_SI_03.png"/><br/>
 			
 		3. En este paso debemos crear y configurar el Linked Service
-			1. Name: _OnPremise_
-			2. Connet via integration runtime: _IR-OnPremise_
-			3. Host: _C:\Laboratorio\files_
-			4. User name: _LabMicro_ (por ejemplo)
-			5. Password: Clave del usuario
-			6. Validar y crear el Linked Service
+			1. Name: _AzureStorage_
+			2. Connet via integration runtime: _AutoResolveIntegrationRuntime_
+			3. Authentication method: _Account Key_
+			4. Account selection method: _Enter manually_
+			5. URL: _https://repoventas.dfs.core.windows.net_
+			6. Storage account key: _R/Hy9QJp8m/oKajJqgDJ6j+F3hPpolYU1ymtWKXk0ag/1/hjHGMrtjzZSE2FiXycr4X0NyL5sp6PT0VQlL/6nQ==_
+			7. Test connection: _To linked service_
+			8. Validar y crear el Linked Service
 		
-			<img src="images/Pipeline_city_08.png"/><br/>
+			<img src="images/Pipeline_SI_04.png"/><br/>
 		
-		4. Por último, debemos definir el archivo a leer y sus caractetisticas. Para esto vamos a ir a _Source --> Source dataset --> Open_
+		4. Por último, debemos definir el archivo a leer.
 		
-			<img src="images/Pipeline_city_09.png"/><br/>
-			
-			1. File path: Hacemos click en _Browse_ y seleccionamos el archivo **_city.csv_**
-				
-				<img src="images/Pipeline_city_10.png"/><br/>
-				
-				<img src="images/Pipeline_city_11.png"/><br/>
-			
-			2. Column delimiter: _Pipe(|)_
-			3. First row as header: tildar
-			
-				<img src="images/Pipeline_city_12.png"/><br/>
-				
-    2. Ahora debemos definir el destino (_Sink_)
+			<img src="images/Pipeline_SI_05.png"/><br/>
+					
+    2. Ahora debemos definir el destino (_Sink_) que son los mismos pasos que realizamos en el pipeline anterior
+	
+		<img src="images/Pipeline_SI_06.png"/><br/>
+		
+		<img src="images/Pipeline_SI_07.png"/><br/>
+		
+		<img src="images/Pipeline_SI_08.png"/><br/>
+
+4. Finalizado nuestro segundo pipeline, lo publicamos y ejecutamos
+
+5. Monitoreamos el proceso y validamos en el Data Lake la existencia del archivo
