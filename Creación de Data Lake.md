@@ -21,3 +21,17 @@
 	<img src="images/DL_04.png"/><br/>
 	
 	<img src="images/DL_05.png"/><br/>
+
+3. Dentro del contenedor vamos a crear 2 directorios
+		1. _ventas_
+		2. _staging_
+	
+	<img src="images/DL_06.png"/><br/>
+	
+	<img src="images/DL_07.png"/><br/>
+	
+4. Descargar los archivos [ventas.zip](./files/ventas.zip) y [staging.zip](./files.staging.zip) y subir sus contenidos a los 2 directoriso previamente creados
+
+	<img src="images/DL_08.png"/><br/>
+	
+	<img src="images/DL_09.png"/><br/>
