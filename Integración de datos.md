@@ -2,8 +2,8 @@
 
 En esta seccion vamos a configurar y ejecutar un conjunto de notebooks que nos permitirar cargar datos en tablas de nuestro Data Warehouse
 
-1. Descargar el archivo [LabMicro.dbc] e importarlo dentro del workspace de Databricks
-2. Abrir la notebook _ConfInicial_ y realizar las siguientes configuraciones:
+1. Descargar el archivo [LabMicro.dbc](./files/LabMicro.dbc) e importarlo dentro del workspace de Databricks
+2. Abrir la notebook **_ConfInicial_** y realizar las siguientes configuraciones:
 	1. En la segunda celda reemplazar
 		1. **_<nombreCuenta>_** por el nombre del servicio Data Lake, en nuesto caso _wwidatalake01_
 		2. **_<keyDataLake>_** por la key del servicio Data Lake, esto lo encontamos en _wwidatalake01 --> Access Keys_
@@ -32,4 +32,4 @@ En esta seccion vamos a configurar y ejecutar un conjunto de notebooks que nos p
 			
 			<img src="images/Synapse_07.png"/><br/>
 			
-4. Adicionalmente hay una notebook llamada _CargaHecho_ que la utilizaremos para el proximo paso [Orquestación](./Orquestaci&oacute;n.md)
+4. Adicionalmente hay una notebook llamada _CargaHecho_ que la utilizaremos para el próximo paso [Orquestación](./Orquestaci&oacute;n.md)
