@@ -3,7 +3,6 @@
 ## Introducción
 Wide World Importers (WWI) es una compañía mayorista que se dedica a la importación y distribución de productos que opera en San Francisco (USA).
 Como empresa mayorista, WWI vende a otros mayoristas como clientes minoristas, supermercados, etc.
-Recientemente la compañía comenzó a vender una nueva línea de productos alimenticios refrigerados, y para cumplir con los requisitos que impone el estado deben controlar la temperatura de las unidades que transportan estos productos entre las distintas sucursales.
 
 ## Contexto
 WWI está diseñando e implementando una prueba de concepto (PoC) de una plataforma de análisis unificada. 
