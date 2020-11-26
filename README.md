@@ -11,4 +11,4 @@ A continuación se detallan los pasos a realizar:
 6. [Ingesta de datos](./Ingesta%20de%20datos.md)
 7. [Integración de datos](./Integraci&oacute;n%20de%20datos.md)
 8. [Orquestación](./Orquestaci&oacute;n.md)
-9. [Visualización]
+9. [Visualización](./Visualizaci&oacute;n.md)
