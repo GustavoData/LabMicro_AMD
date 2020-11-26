@@ -25,7 +25,7 @@ Todos estos pasos se van a orquestar desde un pipeline de Data Factory; a contin
 		5. Databricks workspace: _wwiWorkspace_ 
 		6. Select cluster: _Existing interactive cluster_
 		7. Authentication type: _Access Token_
-		8. Access token: Ir a la seccion [Crear Token]()
+		8. Access token: Ir a la seccion [Crear Token](#Crear Token)
 		9. Existing cluster ID: Seleccionar el cluster disponible
 		10. Validar y Crear
 		
@@ -47,3 +47,14 @@ Todos estos pasos se van a orquestar desde un pipeline de Data Factory; a contin
 	<img src="images/Pipeline_factVentas_09.png"/><br/>
 	
 	<img src="images/Pipeline_factVentas_10.png"/><br/>	
+
+## Crear Token
+1. Desde el workspace ir a _User Settings_
+	<img src="images/DB_09.png"/><br/>
+
+2. Seleccionar _Generate New Token_ y asignarle un nombre. 
+**copiar el token generado ya que no se puede recuperar el valor**
+
+	<img src="images/DB_10.png"/><br/>
+	
+	<img src="images/DB_11.png"/><br/>
