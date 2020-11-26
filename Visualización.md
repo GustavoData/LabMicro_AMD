@@ -29,8 +29,8 @@ Para finalizar vamos a explotar los datos desarrollando un simple tablero utiliz
 	<img src="images/PBI_06.png"/><br/>	
 	
 9. Crear un tablero. En este ejemplo se propone
-		1. Un mapa que muestre el _Profit_ por _stateProvince_
-		2. Un gráfico de barras que muestre _Quantity_ por _Package_
-		3. Un gráfico de líneas que muestre _Unit_Price_ y _Quantity_ por _Mes_
+	1. Un mapa que muestre el _Profit_ por _stateProvince_
+	2. Un gráfico de barras que muestre _Quantity_ por _Package_
+	3. Un gráfico de líneas que muestre _Unit_Price_ y _Quantity_ por _Mes_
 		
 	<img src="images/PBI_07.png"/><br/>	
