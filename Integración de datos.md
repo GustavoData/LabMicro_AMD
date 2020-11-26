@@ -4,7 +4,7 @@ En esta seccion vamos a configurar y ejecutar un conjunto de notebooks que nos p
 
 1. Descargar el archivo [LabMicro.dbc](./files/LabMicro.dbc) e importarlo dentro del workspace de Databricks
 
-<img src="images/Integracion Datos 01.png"/><br/>
+<img src="images/Integracion_Datos_01.png"/><br/>
 
 2. Abrir la notebook **_ConfInicial_** y realizar las siguientes configuraciones:
 	1. En la segunda celda reemplazar
