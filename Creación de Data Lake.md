@@ -23,8 +23,8 @@
 	<img src="images/DL_05.png"/><br/>
 
 3. Dentro del contenedor vamos a crear 2 directorios
-		1. _ventas_
-		2. _staging_
+	1. _ventas_
+	2. _staging_
 	
 	<img src="images/DL_06.png"/><br/>
 	
