@@ -16,7 +16,7 @@
 	
 	<img src="images/DL_03.png"/><br/>
 	
-2. Crear un contenedor; por ejemplo _datalake_
+2. Crear un contenedor; por ejemplo **_datalake_**
 
 	<img src="images/DL_04.png"/><br/>
 	
@@ -30,12 +30,12 @@
 	
 	<img src="images/DL_07.png"/><br/>
 	
-4. Descargar los archivos [ventas.zip](./files/ventas.zip) y [staging.zip](./files.staging.zip) y subir sus contenidos a los 2 directoriso previamente creados
+4. Descargar los archivos **[ventas.zip](./files/ventas.zip)** y **[staging.zip](./files.staging.zip)** y subir sus contenidos a los 2 directoriso previamente creados
 
 	<img src="images/DL_08.png"/><br/>
 	
 	<img src="images/DL_09.png"/><br/>
 
-5. Descargar el archivo [inputs.zip](./files/inputs.zip) y subir el contenido, excepto el archivo _city.csv_, al contenedor **_datalake_**
+5. Descargar el archivo **[inputs.zip](./files/inputs.zip)** y subir el contenido, excepto el archivo **_city.csv_**, al contenedor **_datalake_**
 
 	<img src="images/DL_10.png"/><br/>
