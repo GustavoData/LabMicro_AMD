@@ -75,7 +75,7 @@ Vamos a utilizar como servidor On Premise nuestra PC/Notebook donde configuramos
 			2. Connet via integration runtime: _IR-OnPremise_
 			3. Authentication method: _Account Key_
 			4. Account selection method: _From Azure subscription_
-			5. Azure subscription: Seleccionar la subscription de prueba
+			5. Azure subscription: Seleccionar la subscription asignada
 			6. Storage account name: Seleccionar _wwidatalakeXX_
 			7. Validar y crear el Linked Service
 			
