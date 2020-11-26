@@ -24,7 +24,7 @@ Para finalizar vamos a explotar los datos desarrollando un tablero en Power BI.
 
 	<img src="images/PBI_06.png"/><br/>	
 	
-8. Crear un tablero. En este ejemplo se propone
+8. Crear un tablero; poer ejemplo, se propone
 	1. Un mapa que muestre el _Profit_ por _stateProvince_
 	2. Un gráfico de barras que muestre _Quantity_ por _Package_
 	3. Un gráfico de líneas que muestre _Unit_Price_ y _Quantity_ por _Mes_
