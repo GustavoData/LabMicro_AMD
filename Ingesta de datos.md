@@ -153,6 +153,6 @@ Ahora vamos a realizar los mismos pasos pero en vez de copiar un archivo del On-
 		
 		<img src="images/Pipeline_SI_08.png"/><br/>
 
-4. Finalizado nuestro segundo pipeline, lo publicamos y ejecutamos
+4. Finalizado nuestro segundo pipeline, lo publicamos y ejecutamos ("Trigger Now")
 
 5. Monitoreamos el proceso y validamos en el Data Lake la existencia del archivo
