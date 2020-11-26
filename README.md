@@ -1,5 +1,20 @@
 # Laboratorio Microsoft - Arquitecturas Modernas de Datos
 
+## Introducción
+Wide World Importers (WWI) es una compañía mayorista que se dedica a la importación y distribución de productos que opera en San Francisco (USA).
+Como empresa mayorista, WWI vende a otros mayoristas como clientes minoristas, supermercados, etc.
+Recientemente la compañía comenzó a vender una nueva línea de productos alimenticios refrigerados, y para cumplir con los requisitos que impone el estado deben controlar la temperatura de las unidades que transportan estos productos entre las distintas sucursales.
+
+## Contexto
+WWI está diseñando e implementando una prueba de concepto (PoC) de una plataforma de análisis unificada. 
+El objetivo es que todas las sucursales y áreas de la compañía trabajen en conjunto en una sola plataforma.
+Adicionalmente, se necesita monitorear en tiempo real las unidades que llegan a cada sucursal para saber con cuanto stock de cada línea de producto se cuenta en cada una de ellas.
+
+## Arquitectura de solución propuesta
+
+<img src="images/ArqSolucion.png"/><br/>
+
+## Laboratorio
 A continuación se detallan los pasos a realizar:
 
 0. [Alta de cuenta](./Alta%20de%20Cuenta.md) 
