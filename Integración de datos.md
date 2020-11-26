@@ -16,7 +16,7 @@ En esta seccion vamos a configurar y ejecutar un conjunto de notebooks que nos p
 		3. **_<carpetaVentas>_** por el nombre de la carpeta creada en nuestro Data Lake, por ejemplo _ventas_
 		4. **_<carpetaStaging>_** por el nombre de la carpeta creada en nuestro Data Lake, por ejemplo _staging_
 	3. Ahora pasamos a configurar Databricks con Azure Synapse (SQl DW). En la sexta celda
-		1. **_<connectionString>_** reemplazar por el connectionString de nuestro Azure Synapse; esto lo enconramos en _wwi_dw --> Connection strings_
+		1. **_<connectionString>_** reemplazar por el connectionString de nuestro Azure Synapse; esto lo enconramos en _wwi_dw --> Connection strings --> JDBC_
 		2. Reemplazar **{your_password}** por la clave de conexion a la base de datos
 3. Una vez realizado el punto anterior podemos comenzar a poblar nuestro data warehouse y para eso vamos a ejecutar la notebook _CargaDimensiones_
 	1. Atachar el cluster a la notebook antes de ejecutar 
