@@ -4,11 +4,9 @@ pipeline (Data Factory) que nos permita tomar _mover_ los datos del On Premise a
 
 Todos estos pasos se van a orquestar desde un pipeline de Data Factory; a continuación se listan los pasos:
 
-1. Desde la interfaz de desarrollo de Data Factory nos dirigimos a **Author** y creamos un nuevo Pipeline
-	
-	<img src="images/Pipeline_city_01.png"/><br/>
-	        
-2. Abrimos el pipeline **_CopyOnPrem2Azure_City_** y agregamos la actividad _Notebook_ y la unimos a la actividad existente
+1. Desde la interfaz de desarrollo de Data Factory nos dirigimos a **Author** y editamos el pipeline **_CopyOnPrem2Azure_City_** 
+
+2. Agregamos la actividad _Notebook_ y la unimos a la actividad existente
 	<img src="images/Pipeline_factVentas_01.png"/><br/>
 
 3. A la actividad _Notebook_ le asignamos un nombre representativo, por ejemplo, **_CargaFactVentas_**
