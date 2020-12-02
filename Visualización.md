@@ -12,7 +12,7 @@ Para finalizar vamos a explotar los datos desarrollando un tablero en Power BI.
 4. Para obtener el nombre del servidor ir al Servicio de Synapse; _Overview --> Server name_
 	<img src="images/Synapse_08.png"/><br/>
 
-5. Completar el servidor y _Aceptar_ para luego ingresar usuario y contraseña
+5. Completar el servidor y _Aceptar_ para luego ingresar usuario y contraseña de la base de datos
 
 	<img src="images/PBI_03.png"/><br/>
 	
