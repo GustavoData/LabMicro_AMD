@@ -30,7 +30,7 @@
 	
 	<img src="images/DL_07.png"/><br/>
 	
-4. Descargar los archivos **[ventas.zip](./files/ventas.zip)** y **[staging.zip](./files.staging.zip)** y subir sus contenidos a los 2 directoriso previamente creados
+4. Descargar los archivos **[ventas.zip](./files/ventas.zip)** y **[staging.zip](./files/staging.zip)** y subir sus contenidos a los 2 directoriso previamente creados
 
 	<img src="images/DL_08.png"/><br/>
 	
